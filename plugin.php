@@ -33,17 +33,6 @@ class Plugin {
 		}
 		return self::$_instance;
 	}
-	/**
-	 * widget_scripts
-	 *
-	 * Load required plugin core files.
-	 *
-	 * @since 0.0.1
-	 * @access public
-	 */
-	public function widget_scripts() {
-		wp_register_script( 'elementor-custom-shapes', plugins_url( '/assets/js/hello-world.js', __FILE__ ), [ 'jquery' ], false, true );
-	}
 
 	/**
 	 * Get custom shapes
