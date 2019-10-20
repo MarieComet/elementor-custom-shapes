@@ -1,0 +1,163 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blank WordPress Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2019-10-20 08:04+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: elementor-custom-shapes.php:104
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr "\"%1$s\" requiert \"%2$s\" pour être installée et activée."
+
+#: elementor-custom-shapes.php:105 elementor-custom-shapes.php:125
+#: elementor-custom-shapes.php:146
+msgid "Elementor Custom Shapes"
+msgstr "Elementor Custom Shapes"
+
+#: elementor-custom-shapes.php:106 elementor-custom-shapes.php:126
+msgid "Elementor"
+msgstr "Elementor"
+
+#: elementor-custom-shapes.php:124 elementor-custom-shapes.php:145
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "\"%1$s\" requiert \"%2$s\" en version %3$s ou supérieure."
+
+#: elementor-custom-shapes.php:147
+msgid "PHP"
+msgstr "PHP"
+
+#: includes/admin.php:20
+msgctxt "Elementor Custom Shapes"
+msgid "Custom Shapes"
+msgstr "Formes personnalisées"
+
+#: includes/register-cpt.php:12
+msgctxt "Post Type General Name"
+msgid "Custom shapes"
+msgstr "Formes personnalisées"
+
+#: includes/register-cpt.php:13
+msgctxt "Post Type Singular Name"
+msgid "Custom shape"
+msgstr "Forme personnalisée"
+
+#: includes/register-cpt.php:14 includes/register-cpt.php:42
+msgid "Custom shapes"
+msgstr "Formes personnalisées"
+
+#: includes/register-cpt.php:15 includes/register-cpt.php:41
+msgid "Custom shape"
+msgstr "Forme personnalisée"
+
+#: includes/register-cpt.php:16
+msgid "Item Archives"
+msgstr "Archives"
+
+#: includes/register-cpt.php:17
+msgid "Item Attributes"
+msgstr "Attributs"
+
+#: includes/register-cpt.php:18
+msgid "Parent Item:"
+msgstr "Parent:"
+
+#: includes/register-cpt.php:19
+msgid "All Items"
+msgstr "Tous les éléments"
+
+#: includes/register-cpt.php:20
+msgid "Add New Item"
+msgstr "Ajouter un nouvel élément"
+
+#: includes/register-cpt.php:21
+msgid "Add New"
+msgstr "Ajouter"
+
+#: includes/register-cpt.php:22
+msgid "New Item"
+msgstr "Nouvel élément"
+
+#: includes/register-cpt.php:23
+msgid "Edit Item"
+msgstr "Modifier l'élément"
+
+#: includes/register-cpt.php:24
+msgid "Update Item"
+msgstr "Mettre à jour l'élément"
+
+#: includes/register-cpt.php:25
+msgid "View Item"
+msgstr "Voir l'élément"
+
+#: includes/register-cpt.php:26
+msgid "View Items"
+msgstr "Voir les éléments"
+
+#: includes/register-cpt.php:27
+msgid "Search Item"
+msgstr "Rechercher"
+
+#: includes/register-cpt.php:28
+msgid "Not found"
+msgstr "Non trouvé"
+
+#: includes/register-cpt.php:29
+msgid "Not found in Trash"
+msgstr "Non trouvé dans la corbeille"
+
+#: includes/register-cpt.php:30
+msgid "Featured Image"
+msgstr "Image mise en avant"
+
+#: includes/register-cpt.php:31
+msgid "Set featured image"
+msgstr "Définir l'image mise en avant"
+
+#: includes/register-cpt.php:32
+msgid "Remove featured image"
+msgstr "Retirer l'image mise en avant"
+
+#: includes/register-cpt.php:33
+msgid "Use as featured image"
+msgstr "Utiliser comme image mise en avant"
+
+#: includes/register-cpt.php:34
+msgid "Insert into item"
+msgstr "Insérer dans l'élément"
+
+#: includes/register-cpt.php:35
+msgid "Uploaded to this item"
+msgstr "Téléversé sur cet élément"
+
+#: includes/register-cpt.php:36
+msgid "Items list"
+msgstr "Liste des éléments"
+
+#: includes/register-cpt.php:37
+msgid "Items list navigation"
+msgstr "Navigation de la liste des éléments"
+
+#: includes/register-cpt.php:38
+msgid "Filter items list"
+msgstr "Filtrer la liste des éléments"

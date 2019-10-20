@@ -49,23 +49,10 @@ final class Elementor_Custom_Shapes {
 	 * @access public
 	 */
 	public function __construct() {
-		// Load translation
-		add_action( 'init', array( $this, 'i18n' ) );
 		// Init Plugin
 		add_action( 'plugins_loaded', array( $this, 'init' ) );
 	}
-	/**
-	 * Load Textdomain
-	 *
-	 * Load plugin localization files.
-	 * Fired by `init` action hook.
-	 *
-	 * @since 0.0.1
-	 * @access public
-	 */
-	public function i18n() {
-		load_plugin_textdomain( 'elementor-custom-shapes', false, basename( dirname( __FILE__ ) ) . '/languages' );
-	}
+
 	/**
 	 * Initialize the plugin
 	 *
@@ -79,6 +66,8 @@ final class Elementor_Custom_Shapes {
 	 * @access public
 	 */
 	public function init() {
+
+		load_plugin_textdomain( 'elementor-custom-shapes', false, basename( dirname( __FILE__ ) ) . '/languages' );
 		// Check if Elementor installed and activated
 		if ( ! did_action( 'elementor/loaded' ) ) {
 			add_action( 'admin_notices', array( $this, 'admin_notice_missing_main_plugin' ) );
