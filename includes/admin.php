@@ -10,6 +10,7 @@ if ( is_admin() ) {
 	add_action( 'admin_menu', 'ecs_register_admin_menu', 60 );
 	add_filter( 'wp_handle_upload_prefilter', 'ecs_handle_upload_prefilter' );
 	add_filter( 'wp_handle_upload', 'ecs_handle_upload' );
+    add_action( 'edit_form_after_title', 'ecs_edit_form_after_title', 20, 1 );
 }
 
 /**
@@ -32,8 +33,7 @@ function ecs_register_admin_menu() {
  * @since 0.0.1
  * inspired by https://stackoverflow.com/a/13391519
  */
-function ecs_handle_upload_prefilter( $file )
-{
+function ecs_handle_upload_prefilter( $file ) {
     add_filter( 'upload_dir', 'ecs_custom_upload_dir' );
     return $file;
 }
@@ -44,8 +44,7 @@ function ecs_handle_upload( $fileinfo )
     return $fileinfo;
 }
 
-function ecs_custom_upload_dir( $param )
-{   
+function ecs_custom_upload_dir( $param ) {   
     // Check if uploading from inside a post/page/cpt - if not, default Upload folder is used
     $use_default_dir = ( isset($_REQUEST['post_id'] ) && $_REQUEST['post_id'] == 0 ) ? true : false; 
     if( !empty( $param['error'] ) || $use_default_dir )
@@ -61,4 +60,15 @@ function ecs_custom_upload_dir( $param )
     $param['url']     = $param['baseurl'] . $customdir; 
 
     return $param;
+}
+
+/**
+ * Add message after posts title
+ * @since 0.0.1
+ */
+function ecs_edit_form_after_title( $post ) {
+    if ( 'ele_custom_shapes' !== $post->post_type ) {
+        return;
+    }
+    echo '<div class="wrap postbox"><p class="inside">' . sprintf( '%s: <a href="%s">%s</a>', __( 'Custom Shape', 'elementor-custom-shapes' ), esc_url( 'https://github.com/MarieComet/elementor-custom-shapes#installation-instructions' ), __( 'Read instructions', 'elementor-custom-shapes' ) ) . '</p></div>';
 }

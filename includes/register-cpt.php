@@ -41,7 +41,7 @@ function ecs_register_cpt() {
 		'label'                 => __( 'Custom shape', 'elementor-custom-shapes' ),
 		'description'           => __( 'Custom shapes', 'elementor-custom-shapes' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'thumbnail', 'custom-fields' ),
+		'supports'              => array( 'title', 'thumbnail' ),
 		'hierarchical'          => false,
 		'public'                => false,
 		'show_ui'               => true,

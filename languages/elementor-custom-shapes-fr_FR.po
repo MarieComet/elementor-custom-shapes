@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blank WordPress Pot v1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2019-10-20 08:04+0200\n"
+"POT-Creation-Date: 2019-10-20 08:34+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -24,33 +24,41 @@ msgstr ""
 "X-Generator: Poedit 2.0.6\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: elementor-custom-shapes.php:104
+#: elementor-custom-shapes.php:103
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
 msgstr "\"%1$s\" requiert \"%2$s\" pour être installée et activée."
 
-#: elementor-custom-shapes.php:105 elementor-custom-shapes.php:125
-#: elementor-custom-shapes.php:146
+#: elementor-custom-shapes.php:104 elementor-custom-shapes.php:124
+#: elementor-custom-shapes.php:145
 msgid "Elementor Custom Shapes"
 msgstr "Elementor Custom Shapes"
 
-#: elementor-custom-shapes.php:106 elementor-custom-shapes.php:126
+#: elementor-custom-shapes.php:105 elementor-custom-shapes.php:125
 msgid "Elementor"
 msgstr "Elementor"
 
-#: elementor-custom-shapes.php:124 elementor-custom-shapes.php:145
+#: elementor-custom-shapes.php:123 elementor-custom-shapes.php:144
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
 msgstr "\"%1$s\" requiert \"%2$s\" en version %3$s ou supérieure."
 
-#: elementor-custom-shapes.php:147
+#: elementor-custom-shapes.php:146
 msgid "PHP"
 msgstr "PHP"
 
-#: includes/admin.php:20
+#: includes/admin.php:21
 msgctxt "Elementor Custom Shapes"
 msgid "Custom Shapes"
 msgstr "Formes personnalisées"
+
+#: includes/admin.php:73
+msgid "Custom Shape"
+msgstr "Forme personnalisée"
+
+#: includes/admin.php:73
+msgid "Read instructions"
+msgstr "Lire les instructions"
 
 #: includes/register-cpt.php:12
 msgctxt "Post Type General Name"
