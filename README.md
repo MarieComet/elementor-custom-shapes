@@ -14,6 +14,7 @@ WordPress plugin that allows you to add custom shapes dividers to the Elementor 
 - You need to allow SVG upload on your WordPress website, for example with the plugin [Safe SVG](https://fr.wordpress.org/plugins/safe-svg/)
 - Your SVG files need to be cleaned up (no IDs, no styles), you can use [SVGOMG](https://jakearchibald.github.io/svgomg/) for that
 - SVG paths must have CSS class "elementor-shape-fill"
+- "Invert" setting is not supported for custom shapes created with this plugin. If you need a shape inverted, create a second custom shapes with the same SVG but inverted. Please read : https://github.com/MarieComet/elementor-custom-shapes/issues/1#issuecomment-1024631273
 
 ## SVG example
 Below an SVG code example:
