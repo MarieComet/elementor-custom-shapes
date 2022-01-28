@@ -61,7 +61,7 @@ class Plugin {
 			    			'path' => $shape_thumbnail_path, // used in front
 			    			'url' => $shape_thumbnail_url, // used in editor
 			    			'has_flip' => true,
-			    			'has_negative' => true
+			    			'has_negative' => false
 			    		];
 
 			    	}
